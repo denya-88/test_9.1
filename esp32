@@ -1,0 +1,12 @@
+#define LED_PIN 2 // Пин для светодиода
+
+void setup() {
+    pinMode(LED_PIN, OUTPUT); // Настраиваем как выход
+}
+
+void loop() {
+    digitalWrite(LED_PIN, HIGH); // Включаем светодиод
+    delay(500); // Задержка 500 мс
+    digitalWrite(LED_PIN, LOW);  // Выключаем светодиод
+    delay(500); // Задержка 500 мс
+}
